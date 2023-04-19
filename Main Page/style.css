@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-image: url(Images/background2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+header{
+    background-color: #f0f0f0;
+    width: 100%;
+    display: flex;
+    justify-content: space-betwee;
+    align-items: center;
+    padding: 20px 200px;
+}
+
+.navigation a{
+color: #032722;
+text-decoration: none;
+font-size: 1.5em;
+font-weight: 600;
+padding-left: 80px;
+}
+
+.navigation a:hover{
+    color: #7bf3df;
+}
+
+section{
+    padding: 100px 200px;
+}
+
+.heading{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 100px atuo;
+}
+
+.heading h1{
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.heading h1::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color: #000;
+}
+
+.heading p{
+    font-size: 30px;
+    color: #032722;
+    margin-bottom: 35px;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main-image{
+    flex: 1;
+    margin-right: 40px;
+    overflow: hidden;
+}
+
+.main-image img{
+    width: 600px;
+    height: auto;
+    display: block;
+}
+
+.main-content{
+    flex: 1;
+}
+
+.main-content h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+
+}
+
+.main-content p{
+    font-size: 18px;
+    line-height: 1.5;
+
+}
+
+.projects .title{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    font-size: 50px;
+    color: #fff;
+}
+.projects .content{
+    margin-top: 30px;
+}
+
+
+.project-card{
+    color: #fff;
+    border: 3px solid #fff ;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+    box-shadow: 0 5px 25px rgba( 1 1 1 / 50%);
+}
+
+.project-card:hover .project-image {
+    opacity: 0.9;
+}
+
+.project-image img{
+    width: 100% ;
+}
+
+.project-info{
+    padding: 1em;
+}
+
+.project-cate {
+    font-size: 0.8em;
+    color: 000;
+}
+
+.project-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.more-details{
+    text-decoration: none;
+    color: #fff;
+}
+
+.more-details:hover{
+    color: #032722;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+.employees .title{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    font-size: 50px;
+    color: #fff;
+}
+
+.employees .btns{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.employees .btns .btn {
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #032722;
+    border: #f0f0f0;
+    background: #7bf3df;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba( 1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.employees .btns .btn:hover {
+    transform: scale(1.1);
+}
+
+.btns a{
+    text-decoration: none;
+    background: #7bf3df;
+    color: #032722;
+}
+
+@media (max-width:768px)
+ {   
+    .heading{
+        padding: 0px 20px;
+    }
+
+    .heading h1{
+        font-size : 36px ;
+    }
+
+    .heading p {
+        font-size:17px ;
+        margin-bottom : 0px ;
+    }
+
+    .container{
+        padding: 0px;
+    }
+
+    .main {
+        padding: 20px;
+        flex-direction : column ;
+    }
+
+    .main-image {
+        margin-right : 0px ;
+        margin-bottom : 20px ;
+    }
+
+    .main-content p{
+        padding: 0px;
+        font-size : 16px ;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
